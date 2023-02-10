@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nginx:
+    image: bedamaurice/alpnginx:v3
+    ports:
+     - "80:80"
